@@ -37,6 +37,7 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx_copybutton',
     'sphinx_tabs.tabs',
+    "sphinxcontrib.bibtex",
     "sphinx.ext.autosummary",
     'sphinxcontrib.bibtex',
     'sphinx_sitemap'
@@ -90,6 +91,7 @@ if "book" in html_theme:
     })
 
 html_context = {
+    "html_baseurl": html_baseurl,
     "root_doc": root_doc,
     "description": description,
     "github_user": "peer-open-source",
