@@ -19,5 +19,6 @@ The development and maintenance of SGMD is supported by the Department of Energy
    manual/files
    manual/glossary
    references
+   cite
 
 ```
