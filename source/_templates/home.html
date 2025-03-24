@@ -107,7 +107,7 @@
       <div class="hero-content">
         <div class="hero-title-content">
           <div class="flex-column">
-          <div class="hero-title">𝜒ara</div>
+          <div class="hero-title">SGMD</div>
           <div class="hero-subtitle">{{ description }}</div>
           <div class="hero-cta"><a href="{{ pathto('launch') }}">
               <button class="cta-button">Get Started</button>
@@ -115,7 +115,7 @@
           </div>
         </div>
           <div class="flex-column">
-            <img class="header-image only-light my-auto mx-auto justify-content-center" src="{{ pathto('_static/images/CableStayed02.png', 1) }}" width="80%" alt="{{ project }} logo. ">
+            <img class="header-image only-light my-auto mx-auto justify-content-center" src="{{ pathto('_static/images/sgmd.png', 1) }}" width="60%" alt="{{ project }} logo. ">
             <img class="header-image only-dark" src="{{ pathto('_static/images/girder-dark.png', 1) }}" alt="{{ project }} logo. ">
           </div>
         </div>
@@ -124,7 +124,7 @@
   </section>
 
 
-    <pre class=""><div class="text-center">pip install {{ project }}</div></pre>
+    <pre class=""><div class="text-center"></div></pre>
 
   <section>
     <div class="container">
@@ -174,12 +174,10 @@
 
   <section>
     <div class="container">
-      <h2>Ecosystem</h2>
+      <h2>PEER Tools</h2>
       <div class="col-md-8 mx-auto text-center">
         <p>
-          <em><strong>xara</strong></em> is a part of the larger <a href="https://stairlab.berkeley.edu">STAIRLab</a> ecosystem.
-          STAIRLab is a research group at the University of California, Berkeley, that focuses on the development of
-          computational tools for the analysis and design of structures and infrastructure systems.
+        The PEER-LBNL simulated ground motion database is part of the PEER open data ecosystem.
         </p>
         <hr class="my-4">
         <div class="row g-3">
@@ -208,7 +206,7 @@
 
   <section>
     <div class="container">
-      <h2>STAIRLab Partners</h2>
+      <h2>Partners</h2>
       <hr class="my-4">
       <div class="col-md-8 mx-auto text-center">
         <table style="width: 83.4204%; height: 221px;">
@@ -235,25 +233,20 @@
     <div class="container py-4 py-md-5 px-4 px-md-3 text-body-secondary">
       <div class="row">
         <div class="col-lg-3 mb-3">
-          <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="STAIRlab">
+          <a class="d-inline-flex align-items-center mb-2 text-body-emphasis text-decoration-none" href="/" aria-label="PEER">
             <a href="https://stairlab.berkeley.edu">
-              <img id=footer-logo width="50" src="{{ pathto('_static/images', 1) }}/stairlab_large.svg"
-              alt="STAIRLab logo."></a>
-            {% if False %}
-            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="32" class="d-block me-2" viewBox="0 0 118 94" role="img"><title>STAIRLab</title>
-              <path fill-rule="evenodd" clip-rule="evenodd" d="M24.509 0c-6.733 0-11.715 5.893-11.492 12.284.214 6.14-.064 14.092-2.066 20.577C8.943 39.365 5.547 43.485 0 44.014v5.972c5.547.529 8.943 4.649 10.951 11.153 2.002 6.485 2.28 14.437 2.066 20.577C12.794 88.106 17.776 94 24.51 94H93.5c6.733 0 11.714-5.893 11.491-12.284-.214-6.14.064-14.092 2.066-20.577 2.009-6.504 5.396-10.624 10.943-11.153v-5.972c-5.547-.529-8.934-4.649-10.943-11.153-2.002-6.484-2.28-14.437-2.066-20.577C105.214 5.894 100.233 0 93.5 0H24.508zM80 57.863C80 66.663 73.436 72 62.543 72H44a2 2 0 01-2-2V24a2 2 0 012-2h18.437c9.083 0 15.044 4.92 15.044 12.474 0 5.302-4.01 10.049-9.119 10.88v.277C75.317 46.394 80 51.21 80 57.863zM60.521 28.34H49.948v14.934h8.905c6.884 0 10.68-2.772 10.68-7.727 0-4.643-3.264-7.207-9.012-7.207zM49.948 49.2v16.458H60.91c7.167 0 10.964-2.876 10.964-8.281 0-5.406-3.903-8.178-11.425-8.178H49.948z" fill="currentColor"></path></svg>
-            {% endif %}
-            <span class="fs-5">STAIRLab</span>
+              <img id=footer-logo width="50" src="https://stairlab.berkeley.edu/wp-content/uploads/2025/01/PEER_logo_old.svg"
+              alt="PEER logo."></a>
+            <span class="fs-5">PEER</span>
           </a>
           <ul class="list-unstyled small">
-            <li class="mb-2">Built by PEER in Berkeley, CA.</li>
+            <li class="mb-2">Built by PEER-LBNL in Berkeley, CA.</li>
             <li class="mb-2">Code licensed <a href="https://github.com/STAIRLab/{{ project }}/blob/master/.github/LICENSE" target="_blank" rel="license noopener">BSD</a>, docs <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank" rel="license noopener">CC BY 3.0</a>.</li>
           </ul>
         </div>
         <div class="col-6 col-lg-2 offset-lg-1 mb-3">
           <h5>Links</h5>
           <ul class="list-unstyled">
-            <li class="mb-2"><a href="https://pypi.org/project/xara/">Install</a></li>
             <li class="mb-2"><a href="{{ pathto('launch') }}">Documentation</a></li>
             <li class="mb-2"><a href="https://gallery.stairlab.io">Examples</a></li>
             <li class="mb-2"><a href="./cite.html" >Citing</a></li>
