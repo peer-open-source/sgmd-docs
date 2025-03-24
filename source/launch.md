@@ -4,6 +4,10 @@ The Pacific Earthquake Engineering Research Center (PEER) – Lawrence Berkeley 
 
 The development and maintenance of SGMD is supported by the Department of Energy (DOE) and LBNL under award number 056892.
 
+```{eval-rst}
+.. figure:: sgmd.png
+   :align: center
+```
 
 1. Once in the database, the first step is to select the region to download ground motions (Figure 2).
    Currently, the San Francisco Bay Area (SFBA) is available as a region, and Greater Los Angeles Area
