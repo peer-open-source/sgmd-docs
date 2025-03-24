@@ -19,6 +19,8 @@ After selecting the region, the next window allows the user to search for ground
   - Figure 5 shows a search for all ground motions in the same region but only those with $\mathrm{V}_{\mathrm{s} 30}$ between $300 \mathrm{~m} / \mathrm{s}$ and $500 \mathrm{~m} / \mathrm{s}$, and $\mathrm{R}_{\mathrm{jb}}$ between 10 km and 20 km .
   - Figure 6 shows a search for all ground motions with PGV between $0.8 \mathrm{~m} / \mathrm{s}$ and $1.0 \mathrm{~m} / \mathrm{s}$ in Realizations 1-10, and Realizations with Patches 1-10.
 
-- If a user wants to search for a specific location, such as the site of a building or a bridge, they should set the maximum latitude equal to the minimum latitude and the maximum longitude equal to the minimum longitude. This search finds ground motions at the locations closest to the specified coordinates. The distances between the specified location and the locations of the identified motions are provided in a summary file titled "Distance Results."
+- If a user wants to search for a specific location, such as the site of a building or a bridge, they should set the maximum latitude equal to the minimum latitude and the maximum longitude equal to the minimum longitude. 
+  This search finds ground motions at the locations closest to the specified coordinates. 
+  The distances between the specified location and the locations of the identified motions are provided in a summary file titled *"Distance Results."*
 - Search parameters are described in {ref}`parameters`.
 
