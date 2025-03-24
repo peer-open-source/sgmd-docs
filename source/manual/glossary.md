@@ -1,3 +1,6 @@
 # Glossary
 
-![Parameters](figures/parameters.png.png)
+```{eval-rst}
+.. figure:: figures/parameters.png
+   :align: center
+```

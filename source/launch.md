@@ -9,16 +9,14 @@ The development and maintenance of SGMD is supported by the Department of Energy
    :align: center
 ```
 
-1. Once in the database, the first step is to select the region to download ground motions (Figure 2).
-   Currently, the San Francisco Bay Area (SFBA) is available as a region, and Greater Los Angeles Area
-   and New Madrid Seismic Zone are two regions that will be included in the near future. 
-
 
 ```{eval-rst}
 .. toctree::
 
+   manual/region
    manual/realizations
    manual/search
+   manual/files
    manual/glossary
    references
 
