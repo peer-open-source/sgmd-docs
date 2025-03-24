@@ -1,0 +1,7 @@
+Sphinx>=8.0
+sphinx-book-theme
+sphinx-tabs
+sphinx-sitemap
+sphinx-copybutton
+sphinxcontrib-bibtex
+myst-parser
