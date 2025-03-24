@@ -3,7 +3,7 @@
 After selecting the region, the next window allows the user to search for ground motions across multiple realizations and multiple parameters . Several points to consider when using the Search are listed below:
 
 ```{eval-rst}
-.. figure:: figures/parameters.png
+.. figure:: figures/inputs.png
    :align: center
    :width: 50%
 
