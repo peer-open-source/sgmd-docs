@@ -3,7 +3,7 @@ import os
 import sys
 from pathlib import Path
 # import sphinx_rtd_theme
-sys.path.append(os.path.abspath('./sphinx_ext/'))
+#sys.path.append(os.path.abspath('./sphinx_ext/'))
 
 #
 # -- Project information -----------------------------------------------------
@@ -32,7 +32,7 @@ rst_prolog = """
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-    'toctree_filter',
+#   'toctree_filter',
     'myst_parser',
     'sphinx.ext.mathjax',
     'sphinx_copybutton',
