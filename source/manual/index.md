@@ -8,7 +8,6 @@
    region
    realizations
    search
-   metadata
    files
    examples
    glossary
