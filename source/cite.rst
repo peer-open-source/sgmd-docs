@@ -1,9 +1,12 @@
 Cite
 ^^^^
 
+The development and maintenance of SGMD is supported by the *Department of Energy* (DOE) and the *Lawrence-Berkeley National Laboratory* (LBNL) under award number ``056892``.
+If you use the SGMD in your research, please cite the following references:
+
 .. code-block:: bibtex
 
-   @article{mccallen_open-access,
+   @article{mccallen2025open-access,
      title = {An Open-Access Simulated Earthquake Ground Motion Database for a {M7} Hayward Fault Earthquake in the San Francisco Bay Region},
      author = {{McCallen}, David and Eeri, M and Pitarka, Arben and Tang, Houjun and Mosalam, Khalid and Eeri, M and Petrone, Floriana and Eeri, M and Günay, Selim and Perez, Claudio M.},
      langid = {english},
@@ -11,7 +14,7 @@ Cite
      journal={Earthquake Spectra}
    }
 
-   @software{mccallen_peer-lbnl_nodate,
+   @software{mccallen2025peer-lbnl,
       title = {{PEER}-{LBNL} Simulated Ground Motion Dataset},
       url = {https://sgmd.peer.berkeley.edu/},
       doi = {10.55461/datasets.12302004},
