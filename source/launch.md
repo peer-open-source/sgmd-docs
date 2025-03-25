@@ -7,18 +7,16 @@ The development and maintenance of SGMD is supported by the Department of Energy
 ```{eval-rst}
 .. figure:: sgmd.png
    :align: center
+   :width: 50%
 ```
 
 
 ```{eval-rst}
 .. toctree::
+   :maxdepth: 2
 
-   manual/region
-   manual/realizations
-   manual/search
-   manual/files
-   manual/glossary
-   references
+   Overview <self>
+   manual/index
    cite
 
 ```
