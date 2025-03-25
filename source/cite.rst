@@ -25,3 +25,7 @@ If you use the SGMD in your research, please cite the following references:
       note = {Institution: Pacific Earthquake Engineering Research Center, Lawrence Berkeley National Laboratory},
    }
 
+
+A list of references concerning the development of the database is provided at {ref}`references`.
+
+

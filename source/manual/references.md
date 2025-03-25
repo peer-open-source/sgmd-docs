@@ -3,6 +3,10 @@ bibliography:
 - ./references.biblatex
 ---
 
+```{eval-rst}
+.. references:
+```
+
 # References
 
 *EQSim* is a core component of the SGMD computational backend. 
