@@ -4,7 +4,7 @@ bibliography:
 ---
 
 ```{eval-rst}
-.. references:
+.. _references:
 ```
 
 # References
