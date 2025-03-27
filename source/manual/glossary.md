@@ -1,3 +1,8 @@
+```{eval-rst}
+.. _parameters:
+
+```
+
 # Glossary
 
 
@@ -53,11 +58,12 @@
 - **Latitude**: Latitude of the station.
 - **Longitude**: Longitude of the station.
 - PGA (g), PGV (m/sec), PGD (m): The RotD50 peak ground acceleration, velocity and displacement. The RotD50 metric represents the median across 180 orientations of the horizontal ground motion rotated from $1^{\circ}$ to $180^{\circ}$ in $1^{\circ}$ increments.
-- $R_{j b}$ (km): The Joyner-Boore distance - the shortest horizontal distance from the station to the vertical projection of the rupture.
-- $R_{\mathrm{rup}}$ (km): The closest distance from the station to the fault rupture.
-- $\mathbf{R x}(\mathbf{k m})$: The horizontal distance from the surface projection of the top edge of the fault rupture to the station.
-
-- Vs30: The time averaged shear wave velocity to 30 m depth at the location of the station.
+- $\mathrm{R}_{\mathrm{jb}}$ (km): *Joyner-Boore distance*, shortest horizontal distance from a station to the vertical projection of the rupture, 
+- $\mathrm{R}_{\text {rup }}$ : Closest distance from the station to the fault rupture, 
+- $\mathrm{R}_{\mathrm{x}}$ : Horizontal distance from the surface projection of the top edge of the fault rupture to the station.
+- PGA, PGV, PGD: *RotD50* Peak ground acceleration, velocity and displacement. 
+  The *RotD50* metric represents the median from the two horizontal components rotated across 180 orientations, ranging from $0^{\circ}$ to $179^{\circ}$.
+- $\mathrm{V}_{\mathrm{s} 30}$ : The time averaged shear wave velocity to 30 m depth at the location of a given station.
 - Vs30_sim_model: Vs30 calculated at the location of the station after applying the minimum shear wave velocity to the adopted seismic velocity model.
 
 - **Station Name**: Name of the station where ground motion data is available in the database.

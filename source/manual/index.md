@@ -7,7 +7,6 @@
 
    region
    realizations
-   search
    files
    examples
    glossary
