@@ -1,12 +1,5 @@
 # Glossary
 
-```{eval-rst}
-.. figure:: figures/parameters.png
-   :align: center
-
-   Graphical representation of fault rupture parameters.
-```
-
 
 ## Region and Realization
 
@@ -17,6 +10,13 @@
 - **Rupture Realization**: A scenario refers to the earthquake that is modeled (e.g., Magnitude 7.0 Hayward fault event). Realizations refer to the multiple rupture models, which may differ by the slip distribution, rate, dip, strike, Ztor, and other rupture parameters, for the scenario earthquake. Rupture realizations are represented by the realization number and the code 'patch' indicating the incorporation of a deterministic patch. Currently 50 realizations are available for a magnitude 7.0 Hayward fault scenario ( 25 without patches and 25 with patches).
 
 ## Fault Rupture
+
+```{eval-rst}
+.. figure:: figures/parameters.png
+   :align: center
+
+   Fault rupture parameters.
+```
 
 - **Center Latitude**: Latitude of the midpoint (Please refer to Figure 1) of the surface projection of the top edge of the fault rupture.
 - **Center Longitude**: Longitude of the midpoint (Please refer to Figure 1) of the surface projection of the top edge of the fault rupture.
