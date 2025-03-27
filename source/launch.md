@@ -16,6 +16,7 @@ These simulated ground motions in the database have undergone careful validation
 
    Overview <self>
    manual/index
+   regions/index
    cite
 
 ```
